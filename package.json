@@ -12,8 +12,15 @@
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-tag": "^0.2.0",
     "hexo-renderer-ejs": "^0.3.0",
-    "hexo-renderer-stylus": "^0.3.1",
     "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:micrubanov/hexo-pod.git",
+  "author": "Michael Rubanov <michael.r@anzu.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "hexo-renderer-jade": "^0.4.1"
   }
 }
