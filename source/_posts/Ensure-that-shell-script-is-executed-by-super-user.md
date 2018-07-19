@@ -6,8 +6,8 @@ tags:
 
 ```
 
-# $EUID is shell env variable name that hold an id value of it's "owner".
-# those whom are greater than 0, are non root's.
+# $EUID is a shell environment variable name that referes to an `id` of owner user.
+# id's that are greater than `0`, are **non root**'s.
 
 if [[ $EUID -gt 0 ]]; then
         echo "Please run as root/sudo"
